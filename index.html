@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Jeff's Epic Lists</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 600px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav" >
+      <h4>Jeff's Epic Lists</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="#section2">Lists</a></li>
+      </ul><br>
+
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>HOME</small></h4>
+      <hr>
+      <h2 id="section1">Useful text files here!</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Started by <a href="https://jeffreymaniac.github.io">JaecadeJnight</a>, on Feb 17, 2025.</h5>
+      <p>In this site, I have put text files that can help you with your projects, like the wordlist, which contains every single word in the English language, and other lists here! These can be used for any purpose that you feel like, as this project has the Creative Commons Zero license, so it's in the public domain :)</p>
+      <br><br>
+      
+      <h4 id="section2"><small>ALL LISTS</small></h4>
+      <hr>
+<ul>
+<a href="lists/wordlist.txt"><li>Every single word in the English language (seperated by newlines)</li></a>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Made by <a href="https://jeffreymaniac.github.io">JaecadeJnight</a></p>
+</footer>
+
+</body>
+</html>
