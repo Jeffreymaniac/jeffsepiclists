@@ -1,0 +1,22 @@
+Arc
+Basilisk
+Brave
+Chrome
+DuckDuckGo Private Browser
+Ecosia
+Firefox
+Internet Explorer
+K-Meleon
+Microsoft Edge
+Nintendo DS Browser
+Opera
+Opera GX
+Pale Moon
+Safari
+Samsung Internet
+SeaMonkey
+SlimBrowser
+Tor Browser
+Vivaldi
+Yandex Browser
+Zen Browser
