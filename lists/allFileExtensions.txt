@@ -152,6 +152,7 @@
 .m4v
 .map
 .markdown
+.mca
 .mcaddon
 .mcfunction
 .mcmeta
